@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/colorAccent">
+    <Button
+        android:id="@+id/create_account"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="555dp"
+        android:layout_width="318.24dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="20dp"
+        android:text="Create Account?"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:background="@drawable/v21"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="70dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="136dp"
+                    android:background="@color/lightcolor">
+
+                    <ImageView
+                        android:id="@+id/uploadimage"
+                        android:layout_width="68dp"
+                        android:layout_height="68dp"
+                        android:src="@drawable/addimage"/>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp">
+
+                    <EditText
+                        android:layout_marginTop="20dp"
+                        android:paddingLeft="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:hint="Full Name"
+                        android:textColorHint="@color/reference_color"
+                        android:textSize="18dp"
+                        android:textColor="@color/white"
+                        android:textAlignment="viewStart"
+                        android:background="@drawable/edt_bg_selector"
+                        android:backgroundTint="@android:color/white"
+                        />
+                    <EditText
+                        android:id="@+id/full_name"
+                        android:layout_marginTop="15dp"
+                        android:paddingLeft="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:hint="Father Name"
+                        android:textColorHint="@color/reference_color"
+                        android:textSize="18dp"
+                        android:textColor="@color/white"
+                        android:textAlignment="viewStart"
+                        android:background="@drawable/edt_bg_selector"
+                        android:backgroundTint="@android:color/white"
+                        />
+                    <EditText
+                        android:id="@+id/home_town"
+                        android:layout_marginTop="15dp"
+                        android:paddingLeft="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:hint="Home Town"
+                        android:textColorHint="@color/reference_color"
+                        android:textSize="18dp"
+                        android:textColor="@color/white"
+                        android:textAlignment="viewStart"
+                        android:background="@drawable/edt_bg_selector"
+                        android:backgroundTint="@android:color/white"
+                        />
+                    <EditText
+                        android:id="@+id/current_city"
+                        android:layout_marginTop="15dp"
+                        android:paddingLeft="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:hint="Current City"
+                        android:textColorHint="@color/reference_color"
+                        android:textSize="18dp"
+                        android:textColor="@color/white"
+                        android:textAlignment="viewStart"
+                        android:background="@drawable/edt_bg_selector"
+                        android:backgroundTint="@android:color/white"
+                        />
+                    <TextView
+                        android:id="@+id/dateofbirth"
+                        android:layout_marginTop="15dp"
+                        android:paddingLeft="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:hint="Date of Birth"
+                        android:textColorHint="@color/reference_color"
+                        android:textSize="18dp"
+                        android:textColor="@color/white"
+                        android:textAlignment="viewStart"
+                        android:background="@drawable/edt_bg_selector"
+                        android:backgroundTint="@android:color/white"
+                        />
+                    <Spinner
+                        android:entries="@array/gender"
+                        android:id="@+id/gender"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:hint="Gender"
+                        android:textColor="#FF0000"
+                        android:textColorHint="@color/reference_color"
+                        android:textSize="18dp"
+                        android:textAlignment="viewStart"
+                        android:background="@drawable/edt_bg_selector"
+                        android:backgroundTint="@android:color/white"
+                        />
+                    <EditText
+                        android:id="@+id/mobile_number"
+                        android:layout_marginTop="15dp"
+                        android:paddingLeft="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:hint="Mobile Number"
+                        android:maxLength="10"
+                        android:inputType="number"
+                        android:textColorHint="@color/reference_color"
+                        android:textSize="18dp"
+                        android:textColor="@color/white"
+                        android:textAlignment="viewStart"
+                        android:background="@drawable/edt_bg_selector"
+                        android:backgroundTint="@android:color/white"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

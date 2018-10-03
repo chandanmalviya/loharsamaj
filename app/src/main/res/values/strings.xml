@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Lohar Samaj</string>
+    <string name="text_lohar_samaj">Find Malviya Lohar Samaj People</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="reference_code">Please enter <font color="#1FE15F">Reference Code</font> After you can \n create new account !</string>
+    <string name="need_help"><u>Need Help?</u></string>
+    <string name="verificaion">We sent a 4 digit verification code \n\n to +91 8875670438</string>
+    <array name="gotra">
+        <item>Parmar</item>
+        <item>Parmar1</item>
+        <item>Parmar2</item>
+        <item>Parmar3</item>
+    </array>
+    <array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </array>
+
+    <string-array name="array_name">
+        <item>Array Item One</item>
+        <item>Array Item Two</item>
+        <item>Array Item Three</item>
+    </string-array>
+</resources>

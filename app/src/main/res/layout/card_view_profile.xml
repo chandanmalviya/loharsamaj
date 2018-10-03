@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/event"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Samaj Donation"
+        android:textSize="18dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000"
+        android:layout_marginTop="8dp"/>
+    <Button
+        android:id="@+id/viewall"
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:text="View All"
+        android:textSize="10dp"
+        android:textAllCaps="true"
+        android:fontFamily="sans-serif"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="7dp"
+        android:background="@drawable/v21"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_below="@+id/viewall"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="4dp"
+        android:padding="15dp"
+        app:cardCornerRadius="8dp"
+        app:cardUseCompatPadding="true"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
